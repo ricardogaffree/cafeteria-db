@@ -1,0 +1,5 @@
+# Arquivos desnecessários
+*.log
+*.tmp
+*.bak
+.DS_Store
