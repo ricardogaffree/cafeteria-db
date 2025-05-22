@@ -25,3 +25,8 @@ INSERT INTO pedidos (id_pedido, id_produto, quantidade, data_pedido) VALUES
 (1, 1, 2, '2025-05-10'),
 (2, 2, 1, '2025-05-11'),
 (3, 3, 3, '2025-05-12');
+
+-- Operações adicionais (update, delete, select)
+UPDATE produtos SET preco = 6.00 WHERE id_produto = 1;
+DELETE FROM pedidos WHERE id_pedido = 3;
+SELECT * FROM pedidos WHERE data_pedido = '2025-05-11';
